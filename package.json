@@ -31,12 +31,20 @@
     "webhook",
     "fetch",
     "retry",
-    "redirect"
+    "redirect",
+    "url-redirect"
   ],
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Kristian M. Oubre",
+    "email": "koubre@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": ""
-  }
+    "url": "git+https://github.com/monk24215/url-redirect-request-forwarder-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monk24215/url-redirect-request-forwarder-node/issues"
+  },
+  "homepage": "https://github.com/monk24215/url-redirect-request-forwarder-node#readme"
 }
