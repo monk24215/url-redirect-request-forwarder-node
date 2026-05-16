@@ -1,0 +1,42 @@
+{
+  "name": "url-redirect-request-forwarder-node",
+  "version": "1.0.0",
+  "description": "Framework-agnostic Node.js HTTP request forwarder with retry, full passthrough, and pluggable logging.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./loggers/NullLogger": "./src/loggers/NullLogger.js",
+    "./loggers/FileLogger": "./src/loggers/FileLogger.js",
+    "./loggers/SqlLogger": "./src/loggers/SqlLogger.js"
+  },
+  "files": [
+    "src/",
+    "index.js",
+    "sql/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test 'test/*.test.js'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "forwarder",
+    "webhook",
+    "fetch",
+    "retry",
+    "redirect"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
